@@ -33,7 +33,7 @@ Live Demo
 You can view the live demo of this project [DEMO LINK](https://pozdnya.github.io/Kanban-board/).
 
 Instructions to launch the project locally:
-* Clone the repo `git clone` [link](https://github.com/Pozdnya/Kanban-board.git)
+* Clone the repo `git clone` https://github.com/Pozdnya/Kanban-board.git
 * Set index to project folder `cd kanban-board`
 * Install dependencies `npm install`
 * Run dev server `npm run dev`
