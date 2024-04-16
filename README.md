@@ -36,4 +36,4 @@ Instructions to launch the project locally:
 * Clone the repo `git clone` [link](https://github.com/Pozdnya/Kanban-board.git)
 * Set index to project folder `cd kanban-board`
 * Install dependencies `npm install`
-* Run dev server `npm start`
+* Run dev server `npm run dev`
