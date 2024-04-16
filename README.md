@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+Kanban Board
+This project is a Kanban board application developed using React and TypeScript. It allows users to manage tasks across different stages of completion.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Available Scripts
+In the project directory, you can run:
 
-Currently, two official plugins are available:
+npm run dev
+Runs the app in development mode using Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm run build
+Builds the app for production, including type checking with TypeScript and bundling with Vite.
 
-## Expanding the ESLint configuration
+npm run lint
+Runs ESLint to analyze the code for potential errors and enforce code style rules.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+npm run preview
+Previews the production build locally using Vite.
 
-- Configure the top-level `parserOptions` property like this:
+npm run deploy
+Deploys the app to GitHub Pages. It builds the app and publishes it to the dist folder.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Technologies Used
+React: JavaScript library for building user interfaces.
+TypeScript: Typed superset of JavaScript that compiles to plain JavaScript.
+Chakra UI: Component library for React applications.
+React Beautiful DND: Library for implementing drag and drop functionality in React.
+Redux Toolkit: State management library for React applications.
+Axios: Promise-based HTTP client for making HTTP requests.
+Framer Motion: Library for creating animations in React.
+UUID: Library for generating unique identifiers.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Development Dependencies
+ESLint: Tool for identifying and reporting on patterns found in JavaScript code.
+TypeScript ESLint: ESLint plugin for TypeScript.
+Vite: Build tool that focuses on frontend development.
+gh-pages: Library for deploying to GitHub Pages.
+For a complete list of dependencies and devDependencies, refer to the package.json file.
+
+Live Demo
+You can view the live demo of this project [DEMO LINK](https://pozdnya.github.io/Kanban-board/).
