@@ -15,19 +15,25 @@ In the project directory, you can run:
 - **npm run deploy** Deploys the app to GitHub Pages. It builds the app and publishes it to the dist folder.
 
 Technologies Used
--React: JavaScript library for building user interfaces.
--TypeScript: Typed superset of JavaScript that compiles to plain JavaScript.
--Chakra UI: Component library for React applications.
--React Beautiful DND: Library for implementing drag and drop functionality in React.
--Redux Toolkit: State management library for React applications.
--Axios: Promise-based HTTP client for making HTTP requests.
--Framer Motion: Library for creating animations in React.
--UUID: Library for generating unique identifiers.
--ESLint: Tool for identifying and reporting on patterns found in JavaScript code.
--TypeScript ESLint: ESLint plugin for TypeScript.
--Vite: Build tool that focuses on frontend development.
--gh-pages: Library for deploying to GitHub Pages.
+- **React:** JavaScript library for building user interfaces.
+- **TypeScript:** Typed superset of JavaScript that compiles to plain JavaScript.
+- **Chakra UI:** Component library for React applications.
+- **React Beautiful DND:** Library for implementing drag and drop functionality in React.
+- **Redux Toolkit:** State management library for React applications.
+- **Axios:** Promise-based HTTP client for making HTTP requests.
+- **Framer Motion:** Library for creating animations in React.
+- **UUID:** Library for generating unique identifiers.
+- **ESLint:** Tool for identifying and reporting on patterns found in JavaScript code.
+- **TypeScript ESLint:** ESLint plugin for TypeScript.
+- **Vite:** Build tool that focuses on frontend development.
+- **gh-pages:** Library for deploying to GitHub Pages.
 For a complete list of dependencies and devDependencies, refer to the package.json file.
 
 Live Demo
 You can view the live demo of this project [DEMO LINK](https://pozdnya.github.io/Kanban-board/).
+
+Instructions to launch the project locally:
+* Clone the repo `git clone` [link](https://github.com/Pozdnya/Kanban-board.git)
+* Set index to project folder `cd kanban-board`
+* Install dependencies `npm install`
+* Run dev server `npm start`
